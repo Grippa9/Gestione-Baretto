@@ -1,0 +1,29 @@
+{
+  "name": "gestione-baretto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js",
+    "db:up": "docker compose up -d mysql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grippa9/Gestione-Baretto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Grippa9/Gestione-Baretto/issues"
+  },
+  "homepage": "https://github.com/Grippa9/Gestione-Baretto#readme",
+  "dependencies": {
+    "dotenv": "^18.0.6",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "mysql2": "^3.24.5"
+  }
+}
